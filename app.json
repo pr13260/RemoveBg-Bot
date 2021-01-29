@@ -1,49 +1,52 @@
 {
-  "name": "Remove Background Bot",
-  "description": "A Telegram Bot 🤖 for removing Background of an Image",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
-  "keywords": [
-    "telegram",
-    "bot",
-    "Remove Bg",
-  ],
-  "repository": "https://github.com/MrBotDeveloper/RemoveBg-Bot",
-  "website": "https://mrbotdeveloper.github.io/RemoveBg-Bot/",
-  "success_url": "#TODO",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "CHAT_BASE_TOKEN": {
-      "description": "Your chat base token, as a string.",
-      "value": ""
-    },
-    "TG_BOT_USER_NAME_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": ""
-    },
-    "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    }
-  },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }]
+   "name":"Remove Background Bot",
+   "description":"A Telegram Bot 🤖 for removing Background of an Image",
+   "logo":"https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+   "keywords":[
+      "telegram",
+      "bot",
+      "Remove Bg"
+   ],
+   "repository":"https://github.com/MrBotDeveloper/RemoveBg-Bot",
+   "website":"https://mrbotdeveloper.github.io/RemoveBg-Bot/",
+   "success_url":"#To-Do",
+   "env":{
+      "ENV":{
+         "description":"Setting this to ANYTHING will enable heroku.",
+         "value":"ANYTHING"
+      },
+      "APP_ID":{
+         "description":"Get this value from my.telegram.org! Please do not steal",
+         "value":""
+      },
+      "API_HASH":{
+         "description":"Get this value from my.telegram.org! Please do not steal",
+         "value":""
+      },
+      "CHAT_BASE_TOKEN":{
+         "description":"Your chat base token, as a string.",
+         "value":""
+      },
+      "TG_BOT_USER_NAME_BF_HER":{
+         "description":"Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+         "value":""
+      },
+      "TG_BOT_TOKEN_BF_HER":{
+         "description":"Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+         "value":""
+      },
+      "REM_BG_API_KEY":{
+         "description":"Required for Removing image background functionality. Get from https://www.remove.bg/",
+         "value":"",
+         "required":false
+      }
+   },
+   "addons":[
+      
+   ],
+   "buildpacks":[
+      {
+         "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      }
+   ]
 }
