@@ -11,7 +11,7 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from sample_config import Config
 
-import pyrogram
+import pyrogram.types
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
