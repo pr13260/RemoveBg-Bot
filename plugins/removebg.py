@@ -5,8 +5,7 @@ import requests
 from . import convert_toimage, convert_tosticker, reply_id
 
 
-@bot.on(admin_cmd(pattern="(rmbg|srmbg) ?(.*)"))
-@bot.on(sudo_cmd(pattern="(rmbg|srmbg) ?(.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern="(rmbg) ?(.*)"))
 async def remove_background(event):
     if Config.REM_BG_API_KEY is None:
         return await edit_delete(
