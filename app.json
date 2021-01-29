@@ -4,7 +4,6 @@
   "repository": "https://github.com/MrBotDeveloper/RemoveBg-Bot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["removebg", "telegram", "bot"]
-  },
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
