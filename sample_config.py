@@ -1,7 +1,6 @@
 import os
 
 class Config(object):
-    LOGGER = True
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # Get your own API key from https://www.remove.bg/ or
@@ -20,10 +19,3 @@ class Config(object):
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     # the download location, where the HTTP Server runs
     DB_URI = os.environ.get("DATABASE_URL", "")
-
-class Production(Config):
-    LOGGER = False
-
-
-class Development(Config):
-    LOGGER = True
