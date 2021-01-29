@@ -4,6 +4,8 @@ class Config(object):
 
 
     LOGGER = True
+    # get a token from https://chatbase.com
+    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # Get your own API key from https://www.remove.bg/ or
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     # get a token from @BotFather
@@ -17,7 +19,7 @@ class Config(object):
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     # the download location, where the HTTP Server runs
-
+    DB_URI = os.environ.get("DATABASE_URL", "")
 
 class Production(Config):
     LOGGER = False
