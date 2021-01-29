@@ -17,6 +17,7 @@ DateTime
 fontTools
 python-dotenv
 emoji
+https://github.com/prgofficial/pyrogram/archive/asyncio-dev.zip
 fonttools
 geopy
 gitpython
