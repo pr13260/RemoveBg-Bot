@@ -7,8 +7,8 @@
     "bot",
     "Remove Bg",
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
-  "website": "#TODO",
+  "repository": "https://github.com/MrBotDeveloper/Removebg-Bot",
+  "website": "https://mrbotdeveloper.github.io/Removebg-Bot/",
   "success_url": "#TODO",
   "env": {
     "ENV": {
