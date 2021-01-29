@@ -4,6 +4,6 @@
   "repository": "https://github.com/Technical-Jigar/new74/new/main",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["ne", "ex", "ji"]
-}
- "buildpacks": [{ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest }]
+},
+"buildpacks": [{ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest }]
 }
