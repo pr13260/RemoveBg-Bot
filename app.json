@@ -1,12 +1,13 @@
 {
-  "name": "useless",
-  "description": "useless",
-  "repository": "https://github.com/Technical-Jigar/new74/new/main",
+  "name": "Remove Background Bot",
+  "description": "Removes Background",
+  "repository": "https://github.com/MrBotDeveloper/RemoveBg-Bot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["ne", "ex", "ji"]
+  "keywords": ["removebg", "telegram", "bot"]
   },
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
   }]
- }
 }
