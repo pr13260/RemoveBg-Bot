@@ -23,6 +23,10 @@
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
+    "CHAT_BASE_TOKEN": {
+      "description": "Your chat base token, as a string.",
+      "value": ""
+    },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
