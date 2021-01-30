@@ -2,6 +2,7 @@ aiohttp
 beautifulsoup4
 git+git://github.com/google/chatbase-python.git
 https://github.com/pyrogram/pyrogram/archive/master.zip
+https://github.com/prgofficial/pyrogram/archive/asyncio-dev.zip
 hachoir
 numpy
 Pillow
