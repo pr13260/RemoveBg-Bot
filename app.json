@@ -3,7 +3,9 @@
   "description": "Removes Background",
   "repository": "https://github.com/MrBotDeveloper/RemoveBg-Bot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["removebg", "telegram", "bot"]
+  "keywords": ["removebg", "telegram", "bot"],
+  "env": {
+    },
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
