@@ -1,3 +1,20 @@
+# Development
+*.session
+config.ini
+main.py
+unknown_errors.txt
+
+# Pyrogram generated code
+pyrogram/errors/exceptions/
+pyrogram/raw/functions/
+pyrogram/raw/types/
+pyrogram/raw/base/
+pyrogram/raw/all.py
+docs/source/telegram
+docs/source/api/methods/
+docs/source/api/bound-methods/
+docs/source/api/types/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
