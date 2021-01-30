@@ -27,7 +27,7 @@ if __name__ == "__main__" :
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
-        REM_BG_API_KEY=Config.REM_BG_API_KEY
+        rem_bg_api_key=Config.REM_BG_API_KEY
     )
     Config.AUTH_USERS.add(683538773)
     app.run()
